@@ -1,0 +1,16 @@
+/* **Styles for main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 30px 10px 10px;
+
+  color: var(--black-main);
+  text-align: justify ;
+}

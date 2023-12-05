@@ -1,0 +1,24 @@
+/* **Styles for footer */
+
+footer {
+  background-color: var(--black-main);
+}
+
+#footer-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
+  
+  height: 20px;
+
+  justify-content: space-around;
+
+  padding: 20px 20px;
+}
+
+#github-logo {
+  max-width: 25px;
+}
