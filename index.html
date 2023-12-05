@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="author" content="Daniil 'golova' Zakharov">
+  <meta name="description" content="Space apparel internet store">
+  <meta name="keywords" content="Space, SpaceX, NASA, ROSCOSMOS, Apparel, Hoodie, T-shirt, Rocket">
+
+  <link rel="stylesheet" href="css/index-style.css">
+  <link rel="stylesheet" href="css/adaptive-style.css">
+  <link rel="stylesheet" href="css/footer-style.css">
+  <link rel="stylesheet" href="css/header-style.css">
+  <link rel="stylesheet" href="css/common-style.css">
+  <link rel="stylesheet" href="node_modules/izitoast/dist/css/iziToast.min.css">
+
+  <script src="node_modules/izitoast/src/js/iziToast.js" type="text/javascript"></script>  
+  <script src="js/iziToastLoadPage.js"></script>
+
+  <link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+  <title>Orbitbox</title>
+</head>
+<body>
+  <div class="content-wrapper" id="body-wrapper">
+    <header>
+      <div class="content-wrapper" id="header-wrapper">
+            <div class="header-left-half">
+              <div class="header-nav-logo" id="logo">
+                <a href="index.html">Orbitbox</a>
+              </div>
+            </div>
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger"><span class="hamburgerLine"></span></label>
+            <div class="header-right-half" id="header-right-half">
+              <div class="header-nav-item" id="nav-item-1">
+                <a href="about-us.html">About us</a>
+              </div>
+              <div id="auth">
+                <form id="auth-form">
+                  <input class="auth-item" placeholder="username" type="text" id="username" name="username" required>
+                  <input class="auth-item"  placeholder="password" type="password" id="password" name="password" required>
+                  <button id="sign-in" class="auth-item" type="submit">Sign in</button>
+                </form>
+                <p id="auth-quest">Don't have a profile? <a href="register">Sign up</a></p>
+              </div>
+            </div>
+      </div>
+    </header>
+
+    <main class="main" id="index-main">
+      <div class="banner">
+        Available products
+      </div>
+      <div class="products-list">
+        <div class ="product-item" id="item-1">
+          <div class="product-image">
+            <img src="img/products/front-angle/item-1.webp" name="item-1" alt="occupy mars hoodie" class="image" 
+                                          onmouseover="window.document.images['item-1'].src='img/products/back-angle/item-1-back.webp';" 
+                                          onmouseout="window.document.images['item-1'].src='img/products/front-angle/item-1.webp'">
+          </div>
+          <div class="product-description">
+            <div class="product-description-name">
+              occupy mars pullover hoodie
+            </div>
+            <div class="product-description-price">
+              50$
+            </div>
+          </div>
+        </div>
+        <div class ="product-item" id="item-2">
+          <div class="product-image">
+            <img src="img/products/front-angle/item-2.webp" name="item-2" alt="occupy mars t-shirt" class="image"
+                                          onmouseover="window.document.images['item-2'].src='img/products/back-angle/item-2-back.webp';" 
+                                          onmouseout="window.document.images['item-2'].src='img/products/front-angle/item-2.webp'">
+          </div>
+          <div class="product-description">
+            <div class="product-description-name">
+              occupy mars t-shirt
+            </div>
+            <div class="product-description-price">
+              30$
+            </div>
+          </div>
+        </div>
+        <div class ="product-item" id="item-3">
+          <div class="product-image">
+            <img src="img/products/front-angle/item-3.webp" name="item-3" alt="starman hoodie" class="image"
+                                          onmouseover="window.document.images['item-3'].src='img/products/back-angle/item-3-back.webp';" 
+                                          onmouseout="window.document.images['item-3'].src='img/products/front-angle/item-3.webp'">
+          </div>
+          <div class="product-description">
+            <div class="product-description-name">
+              starman pullover hoodie
+            </div>
+            <div class="product-description-price">
+              50$
+            </div>
+          </div>
+        </div>
+        <div class ="product-item" id="item-4">
+          <div class="product-image">
+            <img src="img/products/front-angle/item-4.webp" name="item-4" alt="F9 model" class="image"
+                                          onmouseover="window.document.images['item-4'].src='img/products/back-angle/item-4-back.webp';" 
+                                          onmouseout="window.document.images['item-4'].src='img/products/front-angle/item-4.webp'">
+          </div>
+          <div class="product-description">
+            <div class="product-description-name">
+              spacex f9 model
+            </div>
+            <div class="product-description-price">
+              200$
+            </div>  
+          </div>
+        </div>
+        <div class ="product-item" id="item-5">
+          <div class="product-image">
+            <img src="img/products/front-angle/item-5.webp" name="item-5" alt="remove before flight key chains" class="image"
+                                          onmouseover="window.document.images['item-5'].src='img/products/back-angle/item-5-back.webp';" 
+                                          onmouseout="window.document.images['item-5'].src='img/products/front-angle/item-5.webp'">
+          </div>
+          <div class="product-description">
+            <div class="product-description-name">
+              remove before flight key chains
+            </div>
+            <div class="product-description-price">
+              15$
+            </div>  
+          </div>
+        </div>
+        <div class ="product-item" id="item-6">
+          <div class="product-image">
+            <img src="img/products/front-angle/item-6.webp" name="item-6" alt="spacex cap" class="image"
+                                          onmouseover="window.document.images['item-6'].src='img/products/back-angle/item-6-back.webp';" 
+                                          onmouseout="window.document.images['item-6'].src='img/products/front-angle/item-6.webp'">
+          </div>
+          <div class="product-description">
+            <div class="product-description-name">
+              spacex cap
+            </div>
+            <div class="product-description-price">
+              25$
+            </div>
+          </div>
+        </div>
+        <div class ="product-item" id="item-7">
+          <div class="product-image">
+            <img src="img/products/front-angle/item-7.webp" name="item-7" alt="starship-hoodie" class="image"
+                                          onmouseover="window.document.images['item-7'].src='img/products/back-angle/item-7-back.webp';" 
+                                          onmouseout="window.document.images['item-7'].src='img/products/front-angle/item-7.webp'">
+          </div>
+          <div class="product-description">
+            <div class="product-description-name">
+              starship hoodie
+            </div>
+            <div class="product-description-price">
+              65$
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="content-wrapper" id="footer-wrapper">
+          <div class="footer-left-half">
+            <div class="footer-page-loadtime">
+              page loadtime:
+              <span id="loadtime"></span>
+            </div>
+          </div>
+          <div class="footer-right-half">
+            <a href="https://github.com/zakharchik-me">
+              <img id="github-logo" src="img/icons/github.png" alt="author: github.com/zakharchik-me">
+            </a>
+          </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/page-load-timer.js"></script>
+  <script src="js/active-page.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

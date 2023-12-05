@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="author" content="Daniil 'golova' Zakharov">
+  <meta name="description" content="Space apparel internet store">
+  <meta name="keywords" content="Space, SpaceX, NASA, ROSCOSMOS, Apparel, Hoodie, T-shirt, Rocket">
+
+  <link rel="stylesheet" href="css/cart-style.css">
+  <link rel="stylesheet" href="css/adaptive-style.css">
+  <link rel="stylesheet" href="css/footer-style.css">
+  <link rel="stylesheet" href="css/header-style.css">
+  <link rel="stylesheet" href="css/common-style.css">
+  <link rel="stylesheet" href="css/active-style.css">
+
+  <link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+  <title>Cart</title>
+</head>
+<body>
+  <div class="content-wrapper" id="body-wrapper">
+    <header>
+      <div class="content-wrapper" id="header-wrapper">
+            <div class="header-left-half">
+              <div class="header-nav-logo" id="logo">
+                <a href="index.html">Orbitbox</a>
+              </div>
+            </div>
+            <input type="checkbox" id="checkbox_toggle">
+            <label for="checkbox_toggle" class="hamburger"><span class="hamburgerLine"></span></label>
+            <div class="header-right-half" id="header-right-half">
+              <div class="header-nav-item" id="nav-item-1">
+                <a href="about-us.html">About us</a>
+              </div>
+              <div id="auth">
+                <form id="auth-form">
+                  <input class="auth-item" placeholder="username" type="text" id="username" name="username" required>
+                  <input class="auth-item"  placeholder="password" type="password" id="password" name="password" required>
+                  <button id="sign-in" class="auth-item" type="submit">Sign in</button>
+                </form>
+                <p id="auth-quest">Don't have a profile? <a href="register">Sign up</a></p>
+              </div>
+            </div>
+      </div>
+    </header>
+
+    <main class="main">      
+    </main>
+    <footer>
+      <div class="content-wrapper" id="footer-wrapper">
+          <div class="footer-left-half">
+            <div class="footer-page-loadtime">
+              page loadtime:
+              <span id="loadtime"></span>
+            </div>
+          </div>
+          <div class="footer-right-half">
+            <a href="https://github.com/zakharchik-me">
+              <img id="github-logo" src="img/icons/github.png" alt="author: github.com/zakharchik-me">
+            </a>
+          </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/page-load-timer.js"></script>
+  <script src="js/active-page.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
